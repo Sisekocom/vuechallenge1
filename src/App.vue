@@ -30,7 +30,7 @@ export default {
           prodName: 'HP Mono LaserJet MFP 137fnw Printer',
           category: 'Gadget',
           amount: 5309.00,
-          image: 'https://tech.co.za/wp-content/uploads/2022/02/4ZB84Aa-768x576.jpg'
+          image: 'https://i.postimg.cc/QxFKY6CC/printer-removebg-preview.png'
         },
         {
           id: 2,
@@ -44,21 +44,28 @@ export default {
           prodName: 'Dell P2418HT Touch Monitor – 23.8',
           category: 'Gadget',
           amount: 5819.00,
-          image: 'https://tech.co.za/wp-content/uploads/2019/06/DELL-P2418HT-510x383.jpg'
+          image: 'https://i.postimg.cc/xCsyMcx4/screen-removebg-preview.png'
         },
         {
           id: 4,
           prodName: 'Asus Vivobook Pro 15 K6502ZC 15.6″ Laptop',
-          category: 'Gadget',
+          category: 'laptops/computers',
           amount: 24159.00,
           image: 'https://tech.co.za/wp-content/uploads/2023/07/Vivobook-Pro-15-K6502ZCa-768x576.png'
         },
         {
           id: 5, 
           prodName: 'Logitech MK330 Wireless Keyboard and Mouse',
-          category: 'Gadget',
+          category: 'laptops/computers',
           amount: 699.00,
           image: 'https://www.firstshop.co.za/cdn/shop/products/920-003989-keyboards-35708394340516_700x.jpg?v=1673263740'
+        },
+        {
+          id: 6, 
+          prodName: 'CANON PIXMA MG3640S – A4 MFP – PRINT, COPY, SCAN',
+          category: 'laptops/computers',
+          amount: 999.00,
+          image: 'https://heldertech.co.za/wp-content/uploads/2022/08/Can-MG3640-450x450.jpg'
         },
       ],
       selectedCategory: '',
@@ -92,8 +99,12 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/1225724585/vector/dreamy-smooth-abstract-green-background.jpg?s=612x612&w=0&k=20&c=bJtqpGE9_7ZeRV0PYdzJREjtEfOWbfi9pAzeGA5oWos=);
+}
 img {
   width: 17rem;
 }
